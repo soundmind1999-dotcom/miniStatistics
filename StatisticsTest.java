@@ -4,15 +4,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class StatisticsTest{
 
 
-
-     @Test
-    public void testMean(){
-    
-    double [] numbers = [2, 4, 6, 8];
-    double expectedValue = 20;
-    double actualValue = Statistics.sum(numbers);
-    assertEquals (expectedValue, actualValue);
-
 }
     @Test
     public void testMean(){
